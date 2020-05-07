@@ -83,7 +83,7 @@ mysqli_close($con);
 <!DOCTYPE html>
  <html>
  <head>
-	 <title>TKO Plaza Transactions</title>
+	 <title>TKO Plaza - Property Ads Repository</title>
 	 <meta charset="UTF-8"/>
 	 <link rel="stylesheet" href="stile.css?v={CURRENT_TIMESTAMP}" type="text/css"/>
 	 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -95,7 +95,7 @@ mysqli_close($con);
         var data = google.visualization.arrayToDataTable(<?= $source ?>);
 
         var options = {
-          title: 'Tseung Kwan O Plaza - Historical Transaction Price per Sft',
+          title: 'Tseung Kwan O Plaza - Historical Property Ads Price per Sft',
           curveType: 'function',
           legend: { position: 'bottom' }
         };
@@ -113,7 +113,7 @@ mysqli_close($con);
         var data = google.visualization.arrayToDataTable(<?= $source1 ?>);
 
         var options = {
-          title: 'Tseung Kwan O Plaza - Median Monthly Price per Sft',
+          title: 'Tseung Kwan O Plaza - Median Monthly Advertised Price per Sft',
           curveType: 'function',
           legend: { position: 'bottom' },
           pointSize: 5
@@ -132,7 +132,7 @@ mysqli_close($con);
         var data = google.visualization.arrayToDataTable(<?= $source2 ?>);
 
         var options = {
-          title: 'Tseung Kwan O Plaza - Number of Transactions per Month',
+          title: 'Tseung Kwan O Plaza - Number of Ads per Month',
           legend: { position: 'none' },
         };
 
@@ -144,7 +144,7 @@ mysqli_close($con);
  </head>
 	 <body>
          <div>
-			<h1>Tseung Kwan O Plaza Price Portal</h1>        
+			<h1>Tseung Kwan O Plaza - Property Ads Repository</h1>        
        </div>
         <form action="home.php"> <button type="submit">Display Source Data</button>   
         <div id="curve_chart" style="width: 900px; height: 500px"></div>
