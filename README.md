@@ -7,4 +7,4 @@ https://github.com/albannabla/TKOPlaza
 the idea is to create a website that collects all of the property ads regarding TKO Plaza once a week for one year, so that I can study a correlation between the transactional price and the advertised price. 
 
 the working website which has started tracking on April 24th 2020 can be found here:
-https://tkoads.000webhostapp.com/
+http://tkoadds.epizy.com/index.php?
